@@ -5,7 +5,7 @@ In order to best understand how each data structure and algorithm works I have i
 ### Data Structures
 - [x] Linked List
 - [x] Stack
-- [ ] Queue - empty?, peek, add, remove.
+- [x] Queue
 - [ ] Binary Search Tree
   - [ ] Preorder Traversal
   - [ ] Inorder Traversal

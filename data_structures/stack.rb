@@ -1,6 +1,6 @@
 # A stack is a LIFO data structure.
 class Stack
-  attr_accessor :head
+  attr_reader :head
 
   def empty?
     !head
@@ -26,5 +26,11 @@ class Stack
   def to_a
     return [] unless head
     head.to_a
+  end
+
+  private
+
+  def initialize
+    @head = nil
   end
 end

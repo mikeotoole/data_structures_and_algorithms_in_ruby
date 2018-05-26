@@ -62,6 +62,19 @@ describe Stack do
         assert_equal 2, stack.pop
       end
     end
+
+    describe 'when popping the last node from the stack' do
+      let(:stack) { Stack.new.tap {|n| n.push(1) } }
+
+      it 'removes first item from stack' do
+        stack.pop
+        assert_equal [], stack.to_a
+      end
+
+      it 'returns the data from first item in stack' do
+        assert_equal 1, stack.pop
+      end
+    end
   end
 
   describe '#peek' do

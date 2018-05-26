@@ -1,4 +1,4 @@
-# Nodes used by LinkedList.
+# Nodes used by the LinkedList, Queue, and Stack data structures.
 class Node
   attr_accessor :next_node
   attr_reader :data
