@@ -1,7 +1,6 @@
 require 'minitest/autorun'
 require './data_structures/linked_list'
 
-# Tests for the LinkedListNode class.
 describe LinkedList do
   let(:list) { LinkedList.new }
 

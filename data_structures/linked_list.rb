@@ -5,19 +5,19 @@ class LinkedList
 
   # Add data to the beginning of the linked list.
   def prepend(data)
-    new_node = LinkedListNode.new(data: data)
-    new_node.next = @head
-    @head = LinkedListNode.new(data: data, next_node: @head)
+    new_node = Node.new(data: data)
+    new_node.next_node = @head
+    @head = Node.new(data: data, next_node: @head)
   end
 
   # Add data to the end of the linked list.
   def append(data)
     if head
       next_node = head
-      next_node = next_node.next while next_node.next
-      next_node.next = LinkedListNode.new(data: data)
+      next_node = next_node.next_node while next_node.next_node
+      next_node.next_node = Node.new(data: data)
     else
-      @head = LinkedListNode.new(data: data)
+      @head = Node.new(data: data)
     end
   end
 
@@ -26,17 +26,17 @@ class LinkedList
     return false unless head
 
     if head.data == data
-      @head = head.next
+      @head = head.next_node
       true
     else
       next_node = head
 
-      while next_node.next
-        if next_node.next.data == data
-          next_node.next = next_node.next.next
+      while next_node.next_node
+        if next_node.next_node.data == data
+          next_node.next_node = next_node.next.next_node
           return true
         end
-        next_node = next_node.next
+        next_node = next_node.next_node
       end
       false
     end
@@ -44,15 +44,7 @@ class LinkedList
 
   def to_a
     return [] unless head
-    next_node = head
-    nodes = []
-
-    while next_node
-      nodes << next_node.data
-      next_node = next_node.next
-    end
-
-    nodes
+    head.to_a
   end
 
   private
