@@ -32,12 +32,7 @@ describe QueueDS do
   end
 
   describe 'when queue has multiple nodes' do
-    let(:queue) do
-      QueueDS.new.tap do |q|
-        q.add(1)
-        q.add(2)
-      end
-    end
+    let(:queue) { QueueDS.new.add(1).add(2) }
 
     describe '#empty?' do
       it 'returns false' do
@@ -76,7 +71,7 @@ describe QueueDS do
   end
 
   describe 'when queue has one node' do
-    let(:queue) { QueueDS.new.tap { |n| n.add(1) } }
+    let(:queue) { QueueDS.new.add(1) }
 
     it 'returns the data in the first item added to the queue' do
       assert_equal 1, queue.remove

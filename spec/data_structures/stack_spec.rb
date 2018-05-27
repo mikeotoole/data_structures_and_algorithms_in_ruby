@@ -2,12 +2,7 @@ require 'minitest/autorun'
 require './data_structures/stack'
 
 describe Stack do
-  let(:stack) do
-    Stack.new.tap do |s|
-      s.push(1)
-      s.push(2)
-    end
-  end
+  let(:stack) { Stack.new.push(1).push(2) }
 
   describe '#empty?' do
     describe 'when no items are in the stack' do
@@ -64,7 +59,7 @@ describe Stack do
     end
 
     describe 'when popping the last node from the stack' do
-      let(:stack) { Stack.new.tap {|n| n.push(1) } }
+      let(:stack) { Stack.new.push(1) }
 
       it 'removes first item from stack' do
         stack.pop

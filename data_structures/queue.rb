@@ -28,6 +28,7 @@ class QueueDS
     end
 
     @tail = node
+    self
   end
 
   # Remove first Node from Queue and return the data in it.

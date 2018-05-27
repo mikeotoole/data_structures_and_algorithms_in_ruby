@@ -21,6 +21,7 @@ class Stack
   # Space Complexity: O(1)
   def push(data)
     @head = Node.new(data: data, next_node: head)
+    self
   end
 
   # Remove Node on top of Stack and return the data in it.
