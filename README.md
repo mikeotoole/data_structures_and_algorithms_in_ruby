@@ -11,7 +11,7 @@ In order to best understand how each data structure and algorithm works I have i
   - [ ] Inorder Traversal
   - [ ] Postorder Traversal
 - [ ] Hash Table
-- [ ] Heap
+- [x] Heap
 
 ### Algorithms
 
