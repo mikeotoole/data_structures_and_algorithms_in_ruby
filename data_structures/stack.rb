@@ -1,3 +1,5 @@
+require_relative 'node'
+
 # A stack is a LIFO data structure.
 class Stack
   attr_reader :head

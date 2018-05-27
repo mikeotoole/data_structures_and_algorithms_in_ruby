@@ -1,3 +1,5 @@
+require_relative 'node'
+
 # A LinkedList is a data structure consisting of a group of nodes.
 # Each node contains data and a pointer to another node.
 class LinkedList

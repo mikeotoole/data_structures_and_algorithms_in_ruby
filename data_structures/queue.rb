@@ -1,3 +1,5 @@
+require_relative 'node'
+
 # A stack is a FIFO data structure.
 class QueueDS
   attr_reader :head, :tail
