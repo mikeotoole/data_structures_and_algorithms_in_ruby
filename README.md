@@ -10,7 +10,7 @@ In order to best understand how each data structure and algorithm works I have i
   - [x] Preorder Traversal
   - [x] Inorder Traversal
   - [x] Postorder Traversal
-- [ ] Hash Table
+- [x] Hash Table
 - [x] Heap
 
 ### Algorithms
