@@ -6,10 +6,10 @@ In order to best understand how each data structure and algorithm works I have i
 - [x] Linked List
 - [x] Stack
 - [x] Queue
-- [ ] Binary Search Tree
-  - [ ] Preorder Traversal
-  - [ ] Inorder Traversal
-  - [ ] Postorder Traversal
+- [x] Binary Search Tree
+  - [x] Preorder Traversal
+  - [x] Inorder Traversal
+  - [x] Postorder Traversal
 - [ ] Hash Table
 - [x] Heap
 
