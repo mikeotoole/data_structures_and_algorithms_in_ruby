@@ -16,8 +16,9 @@ In order to best understand how each data structure and algorithm works I have i
 ### Algorithms
 
 #### Sort
-- [ ] Merge Sort
+- [x] Merge Sort
 - [ ] Quick Sort
+- [ ] Bubble Sort
 
 #### Search
 - [ ] Binary Search
