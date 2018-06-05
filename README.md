@@ -12,6 +12,7 @@ In order to best understand how each data structure and algorithm works I have i
   - [x] Postorder Traversal
 - [x] Hash Table
 - [x] Heap
+- [x] Graph
 
 ### Algorithms
 
@@ -21,7 +22,7 @@ In order to best understand how each data structure and algorithm works I have i
 - [x] Bubble Sort
 
 #### Search
-- [ ] Depth-First Search
-- [ ] Breadth-First Search
 - [x] Array Binary Search
+- [x] Graph Depth-First Search
+- [x] Graph Breadth-First Search
 
