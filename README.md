@@ -21,7 +21,7 @@ In order to best understand how each data structure and algorithm works I have i
 - [x] Bubble Sort
 
 #### Search
-- [ ] Binary Search
 - [ ] Depth-First Search
 - [ ] Breadth-First Search
+- [x] Array Binary Search
 
